@@ -17,7 +17,8 @@
 
 ### The SQL used to create the 4 POSTGRESQL tables is stored at:
 -  Crowdfunding_ETL/Resources/crowdfunding_db_schema.sql
--### The 4 tables created are
+-  
+### The 4 tables created are
 - CrowdFunding_Category
 - Crowdfunding_Sub_Category
 - Contact
