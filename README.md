@@ -3,7 +3,7 @@
 ##  KU Data Analytics Bootcamp - Project 2
 ##  June 28, 2023
 
-The main ETL Jupyter Notebook is stored as follows:
+### The main ETL Jupyter Notebook is stored as follows:
 - Crowdfunding_ETL/ETL_Mini_Project_DLawrence_KKrause 1.ipynb
 
 The 4 CSV files that were created to load the POSTGRESQL database tables are stored under folder Crowdfunding_ETL/Resources:
