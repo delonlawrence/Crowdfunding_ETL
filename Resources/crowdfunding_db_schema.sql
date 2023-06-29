@@ -1,4 +1,15 @@
-﻿
+﻿CREATE DATABASE crowdfunding_db
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'English_United States.1252'
+    LC_CTYPE = 'English_United States.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+
+COMMENT ON DATABASE crowdfunding_db
+    IS 'Project 2 Crowdfunding';
 CREATE TABLE "CrowdFunding_Category" (
     "Category_ID" varchar(10)   NOT NULL,
     "Category_Name" VARCHAR(100)   NOT NULL,
